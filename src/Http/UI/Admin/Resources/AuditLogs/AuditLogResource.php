@@ -29,9 +29,9 @@ class AuditLogResource extends Resource
 
     protected static string|UnitEnum|null $navigationGroup = 'Trail';
 
-    protected static ?string $navigationLabel = 'AuditLog';
+    protected static ?string $navigationLabel = 'Audit Logs';
 
-    protected static ?int $navigationSort = 36;
+    protected static ?int $navigationSort = 43;
 
     public static function form(Schema $schema): Schema
     {

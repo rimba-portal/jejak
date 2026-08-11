@@ -13,5 +13,5 @@ class CreateAuditLog extends CreateRecord
 
     protected static ?string $title = 'Audit Logs';
 
-    protected ?string $subheading = 'Audit logs, keep track of changes in records.'; // Custom
+    protected ?string $subheading = 'Audit logs, keep track of changes in records.';
 }
