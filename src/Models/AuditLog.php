@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace Rimba\Trail\Models;
 
 use App\Models\User;
-use App\Trees\Organization\Models\Staff;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Rimba\People\Models\Staff;
 
 #[Fillable([
     'user_id',
